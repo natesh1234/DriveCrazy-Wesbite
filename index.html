@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>DriveCrazy</title>
+    <meta name="title" content="DriveCrazy - Trusted Wheels, Unmatched Deals">
+    <meta name="description" content="This is a Car Dealer Website made by Natesh">
+    
+    <link rel="shortcut icon" href="assets/story-1.jpg" type="image/svg+xml">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">DriveCrazy</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#rent">Rent</a></li>
+          <li><a href="#ride">Ride</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__btn">
+         <a href="#range"><button class="btn">Get Started</button></a>
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <h1>PREMIUM CAR RENTALS</h1>
+        <form action="/">
+          <div class="input__group">
+            <label for="location">Pick up & Return location</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Gurgaon, Haryana"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="start">Start</label>
+            <input
+              type="datetime"
+              name="start"
+              id="start"
+              placeholder="May 16, 10:00 AM"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="stop">Stop</label>
+            <input
+              type="datetime"
+              name="stop"
+              id="stop"
+              placeholder="May 18, 10:00 PM"
+              required
+            />
+          </div>
+        <a href="#ride"><button class="btn">
+            <i class="ri-search-line"></i>
+          </button></a>
+        </form>
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <a href="#range" class="scroll__down">
+        <i class="ri-arrow-down-line"></i>
+      </a>
+    </header>
+
+    <section class="section__container range__container" id="range">
+      <h2 class="section__header">WIDE RANGE OF VEHICLES</h2>
+      <div class="range__grid">
+        <div class="range__card">
+         <img src="assets/range-1.jpg" alt="range" />
+          <div class="range__details">
+            <h4>CARS</h4>
+            <a href="#ride"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+        <a href="#ride"><img src="assets/range-2.jpg" alt="range" /></a>
+          <div class="range__details">
+            <h4>SUVS</h4>
+            <a href="#ride"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+            <a href="#ride"><img src="assets/range-3.jpg" alt="range" /></a>
+          <div class="range__details">
+            <h4>VANS</h4>
+            <a href="#ride"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+            <a href="#ride"><img src="assets/range-4.jpg" alt="range" /></a>
+          <div class="range__details">
+            <h4>ELECTRIC</h4>
+            <a href="#ride"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container location__container" id="rent">
+      <div class="location__image">
+        <img src="assets/location.png" alt="location" />
+      </div>
+      <div class="location__content">
+        <h2 class="section__header">FIND CAR IN YOUR LOCATIONS</h2>
+        <p>
+          Discover the perfect vehicle tailored to your needs, wherever you are.
+          Our 'Find Car in Your Locations' feature allows you to effortlessly
+          search and select from our premium fleet available near you. Whether
+          you're looking for a luxury sedan, a spacious SUV, or a sporty
+          convertible, our easy-to-use tool ensures you find the ideal car for
+          your journey. Simply enter your location, and let us connect you with
+          top-tier vehicles ready for you.
+        </p>
+        <div class="location__btn">
+         <a href="#home"><button class="btn">Find a Location</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="select__container" id="ride">
+        <h2 class="section__header">PICK YOUR DREAM CAR TODAY</h2>
+      
+        <!-- Slider main container -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide" data-price="₹19,125">
+              <div class="select__card">
+                <img src="assets/select-1.png" alt="select" />
+                </div>
+            </div>
+      
+            <!-- Slide 2 -->
+            <div class="swiper-slide" data-price="₹20,400">
+              <div class="select__card">
+                <img src="assets/select-2.png" alt="select" />
+              </div>
+            </div>
+      
+            <!-- Slide 3 -->
+            <div class="swiper-slide" data-price="₹23,375">
+              <div class="select__card">
+                <img src="assets/select-3.png" alt="select" />
+              </div>
+            </div>
+      
+            <!-- Slide 4 -->
+            <div class="swiper-slide" data-price="₹26,350">
+              <div class="select__card">
+                <img src="assets/select-4.png" alt="select" />
+              </div>
+            </div>
+      
+            <!-- Slide 5 -->
+            <div class="swiper-slide" data-price="₹22,525">
+              <div class="select__card">
+                <img src="assets/select-5.png" alt="select" />
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Booking Form -->
+        <form action="/" class="select__form">
+          <div class="select__price">
+            <span><i class="ri-price-tag-3-line"></i></span>
+            <div><span id="select-price">225</span> /day</div>
+          </div>
+          <div class="select__btns">
+            <a href="#contact"><button class="btn">Rent Now</button></a>
+          </div>
+        </form>
+      </section>
+
+    <section class="section__container story__container">
+      <h2 class="section__header">STORIES BEHIND THE WHEELS</h2>
+      <div class="story__grid">
+        <div class="story__card">
+          <div class="story__date">
+            <span>12</span>
+            <div>
+              <p>April</p>
+              <p>2025</p>
+            </div>
+          </div>
+          <h4>Adventures on the Open Road</h4>
+          <p>
+            Join us as we dive into the exhilarating stories of travelers who
+            embarked on unforgettable journeys with DriveCrazy.
+          </p>
+          <img src="assets/story-1.jpg" alt="story" />
+        </div>
+        <div class="story__card">
+          <div class="story__date">
+            <span>04</span>
+            <div>
+              <p>March</p>
+              <p>2025</p>
+            </div>
+          </div>
+          <h4>Luxury and Comfort: Experiences</h4>
+          <p>
+            In this series, we highlight the luxurious touches, unparalleled
+            comfort, and exceptional service that make every ride.
+          </p>
+          <img src="assets/story-2.jpg" alt="story" />
+        </div>
+        <div class="story__card">
+          <div class="story__date">
+            <span>05</span>
+            <div>
+              <p>May</p>
+              <p>2025</p>
+            </div>
+          </div>
+          <h4>Cars that Adapt to Your Lifestyle</h4>
+          <p>
+            Read about how our versatile vehicles have seamlessly integrated
+            into the lives of professionals and families alike.
+          </p>
+          <img src="assets/story-3.jpg" alt="story" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container">
+      <div class="banner__wrapper">
+        <img src="assets/banner-1.png" alt="banner" />
+        <img src="assets/banner-2.png" alt="banner" />
+        <img src="assets/banner-3.png" alt="banner" />
+        <img src="assets/banner-4.png" alt="banner" />
+        <img src="assets/banner-5.png" alt="banner" />
+        <img src="assets/banner-6.png" alt="banner" />
+        <img src="assets/banner-7.png" alt="banner" />
+        <img src="assets/banner-8.png" alt="banner" />
+        <img src="assets/banner-9.png" alt="banner" />
+        <img src="assets/banner-10.png" alt="banner" />
+      </div>
+    </section>
+
+    <section class="download">
+      <div class="section__container download__container">
+        <div class="download__content">
+          <h2 class="section__header">PREMIUM CAR RENTAL</h2>
+          <div class="download__links">
+            <a href="#" onclick="refreshPage()">
+              <img src="assets/apple.png" alt="apple" />
+            </a>
+            <a href="#" onclick="refreshPage()">
+              <img src="assets/google.png" alt="google" />
+            </a>
+          </div>
+        </div>
+        <div class="download__image">
+          <img src="assets/download.png" alt="download" />
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="contact">
+      <div class="section__container news__container">
+        <h2 class="section__header">Stay up to date on all the latest news.</h2>
+        <form action="/">
+          <input type="text" placeholder="Your email" required/>
+          <button class="btn">
+            <a href="#" onclick="refreshPage()"><i class="ri-send-plane-fill"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a>Installation Manual</a></li>
+            <li><a>Release Note</a></li>
+            <li><a>Community Help</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#rent">About Us</a></li>
+            <li><a href="#ride">Book Car</a></li>
+            <li><a href="#home">Check Availability</a></li>
+            <li><a href="#range">Categories</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a>Demo</a></li>
+            <li><a>Security</a></li>
+            <li><a>FAQ</a></li>
+            <li><a>Features</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/TopCarsD/"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/youdrivemecrazy_india"><i class="ri-instagram-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Crafted with Love by Natesh Garhwal | DriveCrazy &copy; All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
